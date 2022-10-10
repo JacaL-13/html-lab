@@ -1,0 +1,54 @@
+* {
+    margin: auto;
+    width: 100%;
+    /* padding: 10px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('');
+}
+
+body {
+    background-image: url('Imgs/flames.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+span {
+    color: red;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    box-shadow: 5px 5px 20px red
+}
+
+div {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+audio {
+    margin-left: 10%;
+    width: 70%;
+}
